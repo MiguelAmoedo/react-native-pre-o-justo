@@ -32,12 +32,12 @@ Para instalar e iniciar o projeto, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   https://github.com/MiguelAmoedo/react-native-pre-o-justo.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd seu-repositorio
+   cd 
    ```
 
 3. Instale as dependências:

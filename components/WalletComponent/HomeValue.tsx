@@ -4,7 +4,7 @@ import styles from "./Style";
 
 const WalletHome = ({   loginResponse}) => {
 
-  console.log( "wallet", loginResponse)
+ 
 
   const formatBalance = (balance) => {
     if (!balance && balance !== 0) return ''; 

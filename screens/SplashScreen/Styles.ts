@@ -9,24 +9,28 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    
-    backgroundColor: "rgba(123, 34, 211, 0.5)",
+    backgroundColor: '#8000ff',
+    opacity: 0.6,
     width: "100%",
-    height: "100%", 
+    height: "100%",
+    position: "absolute",
+    zIndex: -3 // Adicionado para garantir que a sobreposição cubra toda a tela
   },
   icon: {
     width: 96,
     height: 95,
   },
   text: {
-    color: "#ffffff",
-    fontSize: 20,
-    marginTop: 20,
-    paddingHorizontal: 20,
+    color: "#fff",
+    fontSize: 28,
+    marginTop: 30,
+    paddingHorizontal: 28,
     paddingVertical: 10,
     borderRadius: 24,
-    backgroundColor: "#313131", // Cor do fundo do texto
+    fontWeight: 'bold',
+    backgroundColor: "#313131",
     textAlign: "center",
+    zIndex: -3, // Garantir que o texto esteja na camada superior
   },
 });
 

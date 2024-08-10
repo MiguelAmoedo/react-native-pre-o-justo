@@ -88,9 +88,6 @@ A aplicação consome as seguintes APIs para obter dados e interagir com o servi
 
 - **Histórico de Compras:** `GET https://api-node-puce.vercel.app/`
 
-## CRUD
-
-A aplicação inclui funcionalidades de CRUD (Criar, Ler, Atualizar e Deletar) para gerenciar produtos e dados de usuário. 
 
 ## Testes
 

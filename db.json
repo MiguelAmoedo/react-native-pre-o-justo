@@ -1,0 +1,133 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Televisão 4K Ultra HD",
+      "descricao": "Televisão com resolução 4K Ultra HD e tecnologia LED.",
+      "preco": 2999.99,
+      "quantidade": 10,
+      "imagem": "https://imgs.casasbahia.com.br/1001337219/1g.jpg",
+      "categoria": "televisao",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "2",
+      "nome": "Televisão Smart LED 55\"",
+      "descricao": "Smart TV LED de 55 polegadas com acesso a aplicativos.",
+      "preco": 3499.99,
+      "quantidade": 5,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDUm7kXwak7v4y6sXhoKYjCBtphJkvjk_LAg&s",
+      "categoria": "televisao",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "3",
+      "nome": "Televisão OLED 65\"",
+      "descricao": "Televisão OLED de 65 polegadas com cores vibrantes e alto contraste.",
+      "preco": 6999.99,
+      "quantidade": 2,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUiHjf0Hus9EbM1EtrHb6RP4T3Ts-5dhPJLA&s",
+      "categoria": "televisao",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "4",
+      "nome": "Xbox Series S",
+      "descricao": "Console Xbox Series S com 512 GB de armazenamento.",
+      "preco": 2499.99,
+      "quantidade": 8,
+      "imagem": "https://assets.xboxservices.com/assets/0b/28/0b2854b9-a7e7-47dd-b4f8-a371567854b2.png?n=Xbox-Series-S_Buy-Box_0_01_829x799.png",
+      "categoria": "video game",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "5",
+      "nome": "Xbox Series X",
+      "descricao": "Console Xbox Series X com 1 TB de armazenamento.",
+      "preco": 4999.99,
+      "quantidade": 4,
+      "imagem": "https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png",
+      "categoria": "video game",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "6",
+      "nome": "PlayStation 5",
+      "descricao": "Console PlayStation 5 com capacidade de 825 GB.",
+      "preco": 4999.99,
+      "quantidade": 6,
+      "imagem": "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2023/11/06/ps5-console-rkxbip1up0zd.jpg",
+      "categoria": "video game",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "7",
+      "nome": "Nintendo Switch",
+      "descricao": "Console Nintendo Switch com 32 GB de armazenamento.",
+      "preco": 2299.99,
+      "quantidade": 10,
+      "imagem": "https://m.media-amazon.com/images/I/51Gz7IimgoL._AC_UF1000,1000_QL80_.jpg",
+      "categoria": "video game",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "8",
+      "nome": "Notebook Intel Dual Core",
+      "descricao": "Notebook com processador Intel Dual Core, 4GB RAM e 128GB de armazenamento.",
+      "preco": 1499.99,
+      "quantidade": 7,
+      "imagem": "https://www.havan.com.br/media/catalog/product/n/o/notebook-positivo-intel-dual-core-4gb-ram-128gb-tela-de-15-6-w11_854366.jpg",
+      "categoria": "notebook",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "9",
+      "nome": "Notebook Positivo",
+      "descricao": "Notebook Positivo com Intel Core i5, 8GB RAM e 256GB SSD.",
+      "preco": 2499.99,
+      "quantidade": 3,
+      "imagem": "https://cdn.awsli.com.br/954/954868/produto/68626025/5d150286dc.jpg",
+      "categoria": "notebook",
+      "data_cadastro": "2024-08-08"
+    },
+    {
+      "id": "10",
+      "nome": "Notebook Acer",
+      "descricao": "Notebook Acer com processador AMD Ryzen 5, 16GB RAM e 512GB SSD.",
+      "preco": 3499.99,
+      "quantidade": 5,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFt09K9W0cp1w4FSKQnRWu-8dKx5IkbIqxg&s",
+      "categoria": "notebook",
+      "data_cadastro": "2024-08-08"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Ana Souza",
+      "email": "ana.souza@example.com",
+      "senha": "senha123",
+      "saldo": 5000,
+      "data_cadastro": "2024-08-08"
+    }
+  ],
+  "compras": [
+    {
+      "id": "1",
+      "id_usuario": 1,
+      "id_produto": 4,
+      "quantidade": 1,
+      "total_pago": 2499.99,
+      "data_compra": "2024-08-08"
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": "1",
+      "id_usuario": 1,
+      "mensagem": "Seu pedido de Xbox Series S foi enviado.",
+      "data_envio": "2024-08-08",
+      "data_previsao_chegada": "2024-08-15"
+    }
+  ]
+}

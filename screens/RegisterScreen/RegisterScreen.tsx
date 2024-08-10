@@ -18,7 +18,7 @@ const RegisterScreen = ({ navigation }: any) => {
 
       if (response.status === 201) {
         Alert.alert('Sucesso', 'Cadastro realizado com sucesso');
-        navigation.navigate('Login'); // Navega para a tela de login após o cadastro
+        navigation.navigate('Login'); 
       } else {
         Alert.alert('Erro', 'Ocorreu um erro ao tentar realizar o cadastro');
       }

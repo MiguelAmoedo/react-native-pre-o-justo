@@ -9,8 +9,8 @@ var AuthService  = {
     const AuthApi = axios.post(`${apiUrl}/auth/login`, formData);
     return await AuthApi;
   },
-  register: async () => {
-    const AuthApi = axios.post(`${apiUrl}/auth/register`);
+  register: async (formData) => {
+    const AuthApi = axios.post(`${apiUrl}/auth/register`, formData);
     return await AuthApi;
   },
   UserById: async (id) => {

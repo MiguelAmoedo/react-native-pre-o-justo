@@ -8,10 +8,18 @@ import {
   Sora_700Bold,
 } from '@expo-google-fonts/sora';
 
+
+
 const LoginScreen = ({ navigation }: any) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
+
+  
+  const RegisterAccount = () => {
+    navigation.navigate('Register'); 
+  };
+
 
   const handleLogin = useCallback(async () => {
     setLoading(true);
@@ -96,7 +104,7 @@ const LoginScreen = ({ navigation }: any) => {
         </TouchableOpacity>
 
         <View>
-          <Text style={styles.codeText}>Registrar-se | Resetar senha</Text>
+          <Text style={styles.codeText} onPress={RegisterAccount}>Registrar-se | Resetar senha</Text>
         </View>
       </View>
     </View>

@@ -10,6 +10,7 @@ import BottomNavigation from 'components/TabBarComponent/TabBar';
 import ProfileScreen from 'screens/ProfileScreen/ProfileScreen';
 import ProfileData from 'screens/ProfileDataScreen/ProfileData';
 import PurchasesMadeScreen from 'screens/PurchasesMadeScreen/PurchasesMadeScreen';
+import RegisterScreen from 'screens/RegisterScreen/RegisterScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -52,6 +53,7 @@ export default function App() {
           {(props) => <LoginScreen {...props} />}
         </Stack.Screen>
         <Stack.Screen name="HomeTabs" component={HomeTabNavigator} />
+        <Stack.Screen name="Register" component={RegisterScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

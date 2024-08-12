@@ -1,6 +1,4 @@
-Aqui está um modelo de documentação para um projeto frontend React Native, com todos os detalhes que você mencionou:
 
----
 
 # Documentação do Projeto Frontend - React Native
 
@@ -97,6 +95,3 @@ Para executar os testes, utilize o seguinte comando:
 npm test
 ```
 
----
-
-Este modelo de documentação fornece uma visão geral abrangente do seu projeto, com detalhes sobre a configuração, funcionalidades e como interagir com a API. Sinta-se à vontade para ajustar qualquer seção conforme necessário para refletir com mais precisão as especificidades do seu projeto.
